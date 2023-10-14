@@ -29,7 +29,6 @@ export class User {
     if (!handlers || handlers.length === 0) {
       return;
     }
-
     handlers.forEach(callback => {
       callback();
     });
